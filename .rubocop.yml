@@ -24,7 +24,7 @@ Style/MethodDefParentheses:
 Style/HashSyntax:
   Exclude:
   - lib/tasks/*
-Style/PredicateName:
+Naming/PredicateName:
   NamePrefixBlacklist:
     - is_
 Style/AndOr:
@@ -37,7 +37,7 @@ Style/BlockDelimiters:
     - factories/**/*
 Style/FrozenStringLiteralComment:
   Enabled: false
-Style/VariableNumber:
+Naming/VariableNumber:
   Enabled: false
 Style/SingleLineBlockParams:
   Enabled: false
