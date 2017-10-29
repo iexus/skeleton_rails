@@ -15,11 +15,11 @@ group :development, :test do
   gem "byebug", platforms: %i[mri mingw x64_mingw]
   gem "rake-n-bake"
   gem "rubocop"
-  gem "simplecov"
 end
 
 group :test do
   gem "cucumber-rails", require: false
   gem "database_cleaner"
   gem "rspec-rails"
+  gem "simplecov", require: false
 end
