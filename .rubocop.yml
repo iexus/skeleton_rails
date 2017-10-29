@@ -1,0 +1,50 @@
+AllCops:
+  Exclude:
+    - bin/spring
+    - db/schema.rb
+    - config/environments/production.rb
+    - config/environments/edge.rb
+    - vendor/**/*
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+Style/TrailingCommaInArguments:
+  EnforcedStyleForMultiline: comma
+Style/TrailingCommaInLiteral:
+  EnforcedStyleForMultiline: comma
+Documentation:
+  Enabled: false
+Metrics/LineLength:
+  Max: 140
+  Exclude:
+    - features/**/*
+Layout/SpaceInsideBlockBraces:
+  SpaceBeforeBlockParameters: false
+Style/MethodDefParentheses:
+  EnforcedStyle: require_no_parentheses
+Style/HashSyntax:
+  Exclude:
+  - lib/tasks/*
+Style/PredicateName:
+  NamePrefixBlacklist:
+    - is_
+Style/AndOr:
+  EnforcedStyle: conditionals
+Layout/SpaceInsideHashLiteralBraces:
+  EnforcedStyle: no_space
+Style/BlockDelimiters:
+  EnforcedStyle: semantic
+  Exclude:
+    - factories/**/*
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/VariableNumber:
+  Enabled: false
+Style/SingleLineBlockParams:
+  Enabled: false
+Metrics/BlockLength:
+  Exclude:
+    - spec/**/*
+    - lib/tasks/*
+Metrics/MethodLength:
+  Exclude:
+    - db/migrate/*

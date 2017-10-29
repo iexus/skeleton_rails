@@ -13,10 +13,13 @@ gem 'jbuilder', '~> 2.5'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'rake-n-bake'
+  gem 'rubocop'
+  gem 'simplecov'
 end
 
 group :test do
-  gem 'rspec-rails'
   gem 'cucumber-rails', require: false
   gem 'database_cleaner'
+  gem 'rspec-rails'
 end
