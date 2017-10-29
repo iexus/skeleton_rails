@@ -5,12 +5,15 @@ Project created with:
 
 ## Install
 
-- install ruby 2.4.2
+- install ruby 2.4.2 (I use rbenv)
 - `bundle install`
 - `rake db:create`
+- `rake db:migrate`
 
 ## Use
 
 - `bundle exec rails s`
 
 ## Test
+- `bundle exec rspec`
+- `bundle exec cucumber`
