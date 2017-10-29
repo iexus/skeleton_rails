@@ -1,6 +1,7 @@
 require "simplecov"
 SimpleCov.start do
   coverage_dir "log/coverage/spec"
+  minimum_coverage 100
 end
 
 require "spec_helper"
