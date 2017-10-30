@@ -5,6 +5,7 @@ gem "rails", "~> 5.1.4"
 gem "pg", "~> 0.18"
 gem "puma", "~> 3.7"
 gem "sass-rails", "~> 5.0"
+gem "slim"
 gem "uglifier", ">= 1.3.0"
 # gem 'therubyracer', platforms: :ruby
 
@@ -21,5 +22,6 @@ group :test do
   gem "cucumber-rails", require: false
   gem "database_cleaner"
   gem "rspec-rails"
+  gem "rails-controller-testing"
   gem "simplecov", require: false
 end
