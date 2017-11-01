@@ -14,6 +14,7 @@ gem "jbuilder", "~> 2.5"
 
 group :development, :test do
   gem "byebug", platforms: %i[mri mingw x64_mingw]
+  gem "factory_bot_rails"
   gem "rake-n-bake"
   gem "rubocop"
 end

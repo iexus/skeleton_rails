@@ -18,6 +18,9 @@ RSpec.configure do |config|
   config.infer_spec_type_from_file_location!
   config.filter_rails_from_backtrace!
 
+  # Add factory bot methods
+  config.include FactoryBot::Syntax::Methods
+
   # Data base cleaner setup
   config.before(:suite) do
     DatabaseCleaner.strategy = :transaction
